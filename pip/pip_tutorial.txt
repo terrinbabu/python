@@ -1,0 +1,37 @@
+pip is a python package management system
+
+1. Installing pip
+
+- check if python is installed on powershell
+	> python --version
+	> 3.8.2
+- go to https://bootstrap.pypa.io/get-pip.py
+- save the file
+- go to the saved directory
+> python get-pip.py
+
+2. check the version
+> pip -V  
+
+3. help
+> pip help
+> pip help install
+
+4. search, install and uninstall package
+> pip install "package_name"
+> pip search "package_name"
+> pip uninstall "package_name"
+
+6. list of packages
+> pip list
+
+7. check and update outdated packages
+> pip list -o
+> pip install -U "package_name"
+
+8. show and write list of all install packages
+> pip freeze
+> pip freeze > "file_name.txt"
+
+9. install all packages in the txt file
+> pip install -r "file_name.txt"
