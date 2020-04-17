@@ -66,3 +66,22 @@ print(x)
 # install "linter-flake8"
 # and its dependencies - linter,linter-ui-default, intentions, busy-signal
 # also on terminal need to "pip install flake8"
+
+######################
+# adding to github ###
+######################
+
+# in github website,
+# create account in github and create a repository
+# copy the repository.git link
+
+# download and install git from https://git-scm.com/
+# go to "Git CMD" and type "git config --global user.email terrinbabu@gmail.com
+
+# in atom,
+# ctrl+shift+p , github clone,
+# paste copied link in clone and a folder path for your codes
+# go to github.atom.io/login and get the github token
+# go to atom, right down corner press github and use the token
+# go to git side tab,
+# choose the file to upload, press Stage All, commit, branch, publish
