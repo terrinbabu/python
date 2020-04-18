@@ -47,6 +47,9 @@ a = [1, 2, 3]
 b = [1, 2, 3]  # stores in different memory if its lists, not if int,string..
 # b = a # stores in same memory
 
+# because in python basic type (immutable ) like int,float,.. are not pointers,
+# but list,dic, class objects are pointers
+
 print(a == b)  # True
 print(a is b)  # False - as they have different id
 
