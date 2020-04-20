@@ -1,9 +1,7 @@
+import datetime
 ##################
 # Class method ###
 ##################
-
-
-import datetime
 
 
 class Employee_class:
